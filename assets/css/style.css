@@ -1,0 +1,158 @@
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: url("pexels-photo-457882.jpeg") repeat 0 0;
+  min-height: 100%;
+  display: block;
+}
+
+nav {
+  background-color: yellow;
+  padding: 28px;
+  text-align: right;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-bottom: 40px;
+}
+
+.name {
+  background-color: orangered;
+  color: #ffffff;
+  float: left;
+  position: absolute;
+  left: 0;
+  padding: 16px;
+  top: 0;
+  font-size: 24px;
+}
+
+.links {
+  float: right;
+}
+
+.main {
+  clear: both;
+  width: 960px;
+  background-color: yellow;
+  height: 100%;
+  margin: auto;
+  margin-top: 100px;
+  overflow: auto;
+}
+
+h2 {
+  font-size: 24px;
+  margin: 10px;
+}
+
+img {
+  width: 280px;
+  height: 200px;
+}
+
+.icon {
+  height: 16px;
+  width: 16px;
+}
+
+#bioPic {
+  width: 280px;
+  height: 200px;
+  float: left;
+  margin: 10px;
+}
+
+p {
+  line-height: 24px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.portfolio {
+  clear: both;
+  width: 960px;
+  background-color: yellow;
+  padding: 15px;
+  padding-right: 25px;
+  height: 100%;
+  margin: auto;
+  margin-top: 100px;
+  overflow: auto;
+}
+
+.pic1 {
+  float: left;
+}
+
+.pic2 {
+  float: left;
+}
+
+.pic3 {
+  float: left;
+}
+
+.pic4 {
+  float: right;
+}
+
+.pic5 {
+  float: right;
+}
+
+.contact {
+  clear: both;
+  width: 960px;
+  background-color: yellow;
+  padding: 15px;
+  padding-right: 25px;
+  height: 100%;
+  margin: auto;
+  margin-top: 100px;
+  overflow: auto;
+}
+
+input {
+  width: 100%;
+  margin: 5px;
+}
+
+input[type="submit"] {
+  background-color: orangered;
+  border: none;
+  color: #ffffff;
+  width: 100px;
+  padding: 16px 32px;
+  margin: 4px 2px;
+  cursor: not-allowed;
+}
+
+#message {
+  height: 200px;
+}
+
+footer {
+  clear: both;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: orangered;
+  color: #ffffff;
+  padding: 15px;
+  text-align: center;
+  overflow: auto;
+}
+
+@media screen and (max-width: 980px) {
+}
+
+@media screen and (max-width: 786px) {
+}
+
+@media screen and (max-width: 640px) {
+  biopic {
+    float: top;
+  }
+}
