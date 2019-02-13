@@ -82,23 +82,32 @@ p {
 }
 
 .pic1 {
-  float: left;
+  position: relative;
+  left: 100px;
 }
 
 .pic2 {
-  float: left;
+  position: relative;
+  left: 100px;
 }
 
 .pic3 {
-  float: left;
+  position: relative;
+  left: 100px;
 }
 
 .pic4 {
   float: right;
+  position: relative;
+  bottom: 610px;
+  right: 100px;
 }
 
 .pic5 {
   float: right;
+  position: relative;
+  bottom: 405px;
+  left: 180px;
 }
 
 .contact {
@@ -146,13 +155,119 @@ footer {
 }
 
 @media screen and (max-width: 980px) {
+  body {
+    max-width: 100%;
+  }
+
+  .main {
+    max-width: 95%;
+  }
+
+  .portfolio {
+    max-width: 90%;
+  }
+
+  .contact {
+    max-width: 90%;
+  }
+
+  .pic1,
+  .pic2,
+  .pic3,
+  .pic4,
+  .pic5 {
+    padding: 0px;
+    position: relative;
+    left: 0px;
+    right: 0px;
+  }
+
+  .pic5 {
+    float: right;
+    left: 280px;
+  }
 }
 
 @media screen and (max-width: 786px) {
+  .main {
+    max-width: 95%;
+  }
+
+  .contact {
+    max-width: 90%;
+  }
+
+  .portfolio {
+    max-width: 90%;
+  }
+
+  .pic1,
+  .pic3,
+  .pic5 {
+    position: relative;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    float: left;
+  }
+
+  .pic2,
+  .pic4 {
+    position: relative;
+    float: right;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+  }
 }
 
 @media screen and (max-width: 640px) {
-  biopic {
-    float: top;
+  .name {
+    width: 640px;
+    text-align: left;
+  }
+
+  nav {
+    width: 100%;
+  }
+
+  header {
+    position: static;
+  }
+
+  .links {
+    width: 100%;
+    position: relative;
+    top: 30px;
+    right: 150px;
+    float: none;
+  }
+
+  #biopic {
+    width: 640px;
+  }
+
+  .main {
+    width: 95%;
+  }
+
+  .contact {
+    width: 90%;
+  }
+
+  .portfolio {
+    max-width: 90%;
+  }
+
+  .pic1,
+  .pic2,
+  .pic3,
+  .pic4,
+  .pic5 {
+    position: relative;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    float: left;
   }
 }
